@@ -1,0 +1,30 @@
+<html>
+<head>
+    
+    <title>Liveblog Admin</title>
+    
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="./script.js"></script>
+    
+</head>
+<body>
+    
+    <script type="text/javascript">
+        function send() {
+            var msg = document.getElementById('new_message').value;
+            document.getElementById('new_message').value = '';
+            sock.send(msg);
+        };
+    </script>
+    <h1>Liveblog Admin</h1>
+    <form>
+        <textarea id="new_message" placeholder="Type your blog here..." rows="5"></textarea>
+    </form>
+    <p>
+        <button onclick="send();">Add</button>
+    </p>
+    <ul id="messages">  </ul>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/*
+ * Some simple styling for my liveblog :)
+ */
+
+body {
+	background-color: #fff;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color: #2c3e50;
+}
+
+
+h1 {
+	font-weight: 200;
+	text-align: center;
+	padding-top: 15px;
+}
+
+ul {
+	margin: 0;
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+li {
+	text-align: justify;
+	font-weight: 300;
+	background-color: #fff;
+	list-style-type: none;
+	margin:  0 auto;
+	padding: 15px 0;
+	max-width: 400px;
+	border-bottom: 3px #27ae60 solid;
+	clear: both;
+}
+
+.timestamp {
+	font-size: 0.9em;
+	font-style: italic;
+	margin-left: 5px;
+	margin-top: 5px;
+	float: right;
+	color: #7f8c8d;
+}
+
+form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+button {
+	background-color: #27ae60;
+	color: #fff;
+	border: 0px;
+	padding: 0.5rem;
+	border-radius: 3px;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	color: #fff;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+}
+
+textarea {
+	width: 400px;
+	max-width: 400px;
+	border: 0px #2c3e50 solid;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	color: #2c3e50;
+	font-size: 1rem;
+	margin: 0;
+}
+
+textarea:focus {
+	outline: none;
+	border-color: #27ae60;
+}
+
