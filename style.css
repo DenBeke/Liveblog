@@ -37,10 +37,11 @@ li {
 	font-size: 0.9em;
 	font-style: italic;
 	margin-left: 5px;
-	margin-top: 5px;
+	margin-top: 1px;
 	float: right;
 	color: #7f8c8d;
 }
+
 
 form {
 	width: 400px;
